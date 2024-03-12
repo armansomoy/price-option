@@ -3,6 +3,7 @@ import './App.css'
 import Header from './components/Header/Header'
 import Navbar from './components/Navbar/Navbar'
 import PriceOption from './components/PriceOption/PriceOption'
+import LineChart from './components/LineChart/LineChart'
 
 function App() {
 
@@ -12,7 +13,7 @@ function App() {
      <h2 className='text-6xl py-7 font-bold text-blue-600'>Price Option</h2>
      <Navbar></Navbar>
      <PriceOption></PriceOption>
-     
+     <LineChart></LineChart>
     </>
   )
 }
