@@ -4,6 +4,7 @@ import Header from './components/Header/Header'
 import Navbar from './components/Navbar/Navbar'
 import PriceOption from './components/PriceOption/PriceOption'
 import LineChart from './components/LineChart/LineChart'
+import Phones from './components/Phones/Phones'
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
      <Navbar></Navbar>
      <PriceOption></PriceOption>
      <LineChart></LineChart>
+     <Phones></Phones>
     </>
   )
 }
